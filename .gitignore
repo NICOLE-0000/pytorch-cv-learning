@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+pytorch-env/
+.venv/
+
+# 训练产物
+*.pth
+*.pt
+*.onnx
+
+# 数据集（CIFAR10 解压后约 170MB，绝不入库）
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统
+.DS_Store
+Thumbs.db
